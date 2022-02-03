@@ -11,6 +11,8 @@ Note: build supports x64 only
 
 Everything after Step 2 (but not including step 2) has been automated.  Follow Steps 1-2, and then run the following command.  Always make sure you trust scripts that you're running from the internet!  The script being pulled is available in this repo for your inspection.
 
+Inside Power Shell Enter:
+
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/TokugawaHeavyIndustries/DomesdayDuplicator-WinBuild/main/installscript-dd.ps1'))
 ```
